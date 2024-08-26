@@ -1,0 +1,9 @@
+@import "Variable.scss";
+
+.nav-container {
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+  background: $base-color;
+  padding: 20px;
+}
