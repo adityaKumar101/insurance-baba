@@ -1,0 +1,27 @@
+@media (max-width: 480px) {
+  .contactSec {
+    margin: 0;
+    max-width: 100vw;
+    min-width: auto;
+  }
+  .reviewSec {
+    gap: 5px;
+    .reviewCard {
+      width: auto;
+    }
+  }
+}
+
+.card-slider-container {
+  @media (max-width: 768px) {
+    max-width: calc(100vw - 30px);
+    .card-slider-row {
+      flex-wrap: nowrap; /* Prevent wrapping on small screens */
+    }
+
+    .card {
+      flex: 0 0 100%; /* Each card takes up the full width of the container on small screens */
+      margin: 0; /* Remove margin on small screens */
+    }
+  }
+}
