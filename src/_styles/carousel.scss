@@ -1,0 +1,13 @@
+.carousel-sec {
+  .carousel-item {
+    img {
+      height: 300px !important;
+      object-fit: contain;
+    }
+  }
+}
+.carousel-inner {
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0);
+  overflow: hidden;
+}
